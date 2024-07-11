@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-boxs;
+    text-align: center;
+    
+}
+body{
+    background: #165ef9;
+}
+ .Simple{
+    background-color: cadetblue;
+    margin-top: 9%;
+    max-width: 1014px;
+    margin-left: 19%;
+    /* margin: auto; */
+    padding-bottom: 75px;
+  }
+
+.countdown{
+    margin-left: 44px;
+    margin-right: 44px;
+    font-size: 30px;
+    background-color: aqua;
+}
+.countdown h4{
+    margin-top: 20px;
+}
+
+.time{
+    width: 130px;
+    margin-top: 30px;
+    padding: 5px 20px;
+    margin-left: 44px;
+    display: inline-block;
+}
+.text{
+    font-size: 20px;
+    background-color: rgb(127, 127, 127);
+    margin-left: 22px;
+    margin-bottom: -10px;
+    border-radius: 10px;
+    z-index: 2;
+    margin-right: 22px;
+    position: relative;
+}
+input{
+    
+max-width: 105px;
+font-size: 25px;
+min-height: 55px;
+}
+
+.view{
+    display: grid;
+    place-items: center;
+    place-content: center;
+}
+.butto{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.buttons{
+    padding: 15px;
+    background-color: #ed0909;
+}
+.buttons:hover{
+    background-color: #6cf860;
+}

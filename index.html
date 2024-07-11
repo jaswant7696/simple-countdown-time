@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple countdown time</title>
+    <link rel="stylesheet" href="../asstes/style/style.css">
+</head>
+
+<body>
+    <div class="ddf">
+
+        <div class="Simple">
+            <div class="countdown">
+                <h4>SIMPLE COUNTDOWN TIME</h4>
+            </div>
+            <div>
+                <div class="time">
+                    <p class="text">day</p>
+                    <input id="day" type="text" name="day" placeholder="00" minlength="1" maxlength="2" required=""readonly >
+                </div>
+                <div class="time">
+                    <p class="text">hours</p>
+                    <input id="hours" type="text" name="hours" placeholder="00" minlength="1" maxlength="2" required="" readonly>
+                </div>
+                <div class="time">
+                    <p class="text">minutes</p>
+                    <input  id="minutes" type="text" name="minutes" placeholder="00" minlength="1" maxlength="2"
+                        required="" readonly>
+                </div>
+                <div class="time">
+                    <p class="text">seconds</p>
+                    <input id="seconds" type="text" name="seconds" placeholder="00" minlength="1" maxlength="2"
+                        required="" readonly>
+                </div>
+            </div>
+            <div class="butto">
+                <input class="buttons" type="button" value="start" name="submit" onclick="startHandler()" id="" >
+                <input class="buttons" type="button" value="stop" name="submit" onclick="resetHandler()" id="">
+                <input class="buttons" type="button" value="clear" name="submit" onclick="clearTimer()" id="">
+            </div>
+        </div> 
+    </div>
+</div>
+<div class="Timer" id="Timer"></div>
+</div>
+    <script src="/asstes/js/js script.js"> </script>
+</body>
+
+</html>
